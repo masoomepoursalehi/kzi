@@ -1,0 +1,64 @@
+.address{
+  min-height: 100vh;
+  background-color: #6dd4fa09;
+}
+.address form label{
+    width: 100%;
+    font-weight: bold;
+    padding: .7rem 0!important;
+}
+.address form input{
+  width: 100%;
+  border: none;
+  outline: none;
+  border: 1px solid #c6ccdc;
+  border-radius: 5rem;
+  padding: .5rem !important;
+}
+.address form input:focus{
+  border: 1px solid #EA1B25;
+}
+.address .container{
+  max-width: 100%;
+}
+.address form{
+  width: 50%;
+  padding:0rem 5rem!important;
+  margin: 3rem auto !important;
+  text-align: left;
+}
+
+.address form p:first-child{
+  font-size: 2.5rem;
+  padding-bottom: 1rem !important;
+}
+.address form p:nth-child(2){
+  padding: 2rem 0 !important;
+}
+.address form button{
+  margin: 2rem 0!important;
+  width: 6rem;
+  padding:.8rem 1rem!important;
+  border: none;
+  border-radius: 5rem;
+  font-weight: bold;
+}
+.address form button:hover{
+  background-color: #EA1B25;
+  color: white;
+}
+@media only screen and (max-width: 768px) {
+  .address form{
+    margin:3rem 0rem 1rem!important;
+  }
+}
+@media only screen and (max-width: 992px){
+  .address form{
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .address form{
+    width: 100%;
+  }
+} 

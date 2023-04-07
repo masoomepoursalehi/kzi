@@ -1,0 +1,48 @@
+.changprof form p:first-child{
+    font-size: 2.5rem;
+    padding-bottom: 1.5rem !important;
+}
+.changprof form label{
+  font-weight: bold;
+  padding: .5rem .5rem .5rem 0rem!important;
+  text-align: left;
+}
+.changprof form label:not(.gender){
+  width: 100%;
+}
+.changprof form input:not(.gender){
+  width: 100%;
+}
+.changprof form input{
+  border: none;
+  outline: none;
+  border: 1px solid #c6ccdc;
+  border-radius: 5rem;
+  padding: .5rem !important;
+}
+.changprof form input:focus{
+  border: 1px solid #EA1B25;
+}
+.changprof form{
+  margin: 3rem auto !important;
+  width: 50%;
+}
+@media only screen and (max-width: 992px) {
+  .changprof form{
+    width: 100%;
+    padding: 0 4rem !important;
+  }
+}
+.changprof form button{
+  margin: 1rem 0!important;
+  width: 6rem;
+  padding:.8rem 1rem!important;
+  border: none;
+  border-radius: 5rem;
+  font-weight: bold;
+  float: left;
+}
+.changprof form button:hover{
+  background-color: #EA1B25;
+  color: white;
+}

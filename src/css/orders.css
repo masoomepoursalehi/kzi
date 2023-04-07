@@ -1,0 +1,106 @@
+.allOrders .container{
+    max-width: 100%;
+}
+.allOrders{
+    padding: 2rem 5rem !important;
+    min-height: 100vh;
+    background-color: #6dd4fa09;
+}
+.allOrders h1{
+    text-align: center;
+    margin-bottom: 3rem !important;
+}
+.allOrders .parrentOfDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.allOrders .ordersHolder{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #c6ccdc;
+    padding: .5rem 1rem 1rem !important;
+    margin: 1rem 0 !important;
+    border-radius: .5rem;
+}
+.allOrders .moreDetails{
+    display: flex;
+    justify-content: flex-end;
+}
+.allOrders .moreDetails svg{
+    cursor: pointer;
+}
+.allOrders .moreDetails svg:hover{
+    color: #EA1B25;
+}
+.allOrders .adressOrders{
+    display: flex;
+    flex-direction: row;
+}
+.allOrders .adressOrders p{
+    padding-right: 2rem !important;
+}
+.allOrders .adressOrders span{
+    font-weight: bold;
+}
+.allOrders .imgHolder{
+    padding: .5rem 0 !important;
+    display: flex;
+    flex-wrap: wrap;
+}
+.allOrders .imgHolder img{
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem !important;
+    margin-top: 1rem !important;
+}
+.allOrders .ordersShow{
+    margin: 7rem auto 0!important;
+    background-color: #EA1B25;
+    color: white;
+    padding: 5rem 0rem !important;
+    font-size: 2rem;
+    border-radius: .2rem;
+    text-align: center;
+    width: 60%;
+}
+@media only screen and (max-width: 1200px) {
+    .allOrders .ordersHolder{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .allOrders .ordersHolder{
+        width: 80%;
+    }
+    .allOrders .ordersShow{
+        width:100% ;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .allOrders .ordersHolder{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .allOrders .adressOrders{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*======================
+    LOADING ERROR
+=======================*/
+.allOrders .spinnerLoding,
+.allOrders .badgeError{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.allOrders .badgeError .badge{
+    padding: 1rem !important;
+    font-size: 1rem;
+}

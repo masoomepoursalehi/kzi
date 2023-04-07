@@ -1,0 +1,80 @@
+/*======================
+    LOADING ERROR
+=======================*/
+.oneProduct .spinnerLoding,
+.oneProduct .badgeError{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.oneProduct .badgeError .badge{
+    padding: 1rem !important;
+    font-size: 1rem;
+}
+/*======================
+    ONE PRODUCT
+=======================*/
+.oneProduct .container{
+    max-width: 100%;
+}
+.oneProduct{
+    padding: 6rem 5rem!important;
+    min-height: 100vh;
+    background-color: #6dd4fa09;
+}
+.oneProduct img{
+    width: 15rem;
+    height: 15rem;
+}
+.oneProduct .imgHolder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.oneProduct .imgHolder button{
+    border: none;
+    margin-top: 2rem !important;
+    border-radius: 2rem;
+    width: 10rem;
+    padding: .8rem .5rem!important;
+    background-color: #EA1B25;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.oneProduct .detailsAProduct{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 5rem 0 0 !important;
+}
+.oneProduct .detailsAProduct h3{
+    padding-bottom: 1rem !important;
+    border-bottom: 1px solid #c6ccdc;
+}
+.oneProduct .detailsAProduct p{
+    padding: .5rem 1rem !important;
+}
+.oneProduct .detailsAProduct p span{
+    font-weight: bold;
+}
+.oneProduct .detailsAProduct p:last-of-type{
+    font-size: 2rem;
+}
+@media only screen and (max-width: 992px) {
+    .imgHolder{
+        margin-bottom: 2rem !important;
+    }
+}
+/*======================
+    TOASTIFY
+=======================*/
+.Toastify .Toastify__toast-theme--light{
+    padding:  1rem !important;
+}
+.Toastify__toast-body{
+    align-items: flex-start !important;
+}

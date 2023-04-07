@@ -1,0 +1,40 @@
+
+.uploadavatar form p:first-child{
+  font-size: 2.5rem;
+  padding-bottom: 1.5rem !important;
+}
+.uploadavatar form label{
+  font-weight: bold;
+  padding: .5rem .5rem .5rem 0rem!important;
+  text-align: left;
+  width: 100%;
+}
+.uploadavatar form input{
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: .5rem !important;
+}
+.uploadavatar form{
+  width: 50%;
+  margin: 7rem auto !important;
+}
+@media only screen and (max-width: 992px) {
+  .uploadavatar form{
+    width: 100%;
+    padding: 0 4rem !important;
+  }
+}
+.uploadavatar form button{
+  margin: 1rem 0!important;
+  width: 6rem;
+  padding:.8rem 1rem!important;
+  border: none;
+  border-radius: 5rem;
+  font-weight: bold;
+  float: left;
+}
+.uploadavatar form button:hover{
+  background-color: #EA1B25;
+  color: white;
+}

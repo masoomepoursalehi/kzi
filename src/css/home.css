@@ -1,0 +1,88 @@
+/*======================
+    LOADING ERROR
+=======================*/
+.allProduct .spinnerLoding,
+.allProduct .badgeError{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.allProduct .badgeError .badge{
+    padding: 1rem !important;
+    font-size: 1rem;
+}
+/*======================
+    PRODUCTS
+=======================*/
+.allProduct .container{
+    max-width: 100%;
+}
+.allProduct .col{
+    display: flex;
+    justify-content: center;
+}
+.allProduct{
+    padding: 2rem 5rem!important;
+    min-height: 100vh;
+    background-color: #6dd4fa09;
+}
+.allProduct h1{
+    margin-bottom: 2rem !important;
+}
+.allProduct .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem !important;
+    margin-bottom: 2rem !important;
+    background-color: #9e9fb10e;
+    border: none;
+}
+.allProduct .card:hover{
+    transform: scale(1.1);
+}
+.allProduct .card-title{
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.allProduct .card-text{
+    height: 8rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.allProduct .btnHolder{
+    height: 2rem;
+    margin: .5rem 0 1.5rem 0!important;
+}
+.allProduct .btn{
+    background-color: #9e9fb10e;
+    color: black;
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.575);
+    border-radius: .2rem;
+    width: 7rem;
+    padding: .2rem 0!important;
+}
+.allProduct .btn:hover{
+    background-color: #EA1B25;
+    color: white;
+    border: none;
+}
+.allProduct .imgHolder{
+    height: 8rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.allProduct .card-img-top{
+    width: 100%;
+    height: 100%;
+}

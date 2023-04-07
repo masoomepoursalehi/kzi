@@ -1,0 +1,16 @@
+.footer{
+    background-color: #9e9fb10e;
+    padding:3rem 2rem!important;
+}
+.footer h3{
+    padding-bottom: 1rem !important;
+}
+.footer p:first-of-type{
+    text-align: justify;
+    padding: 0 0 1rem !important;
+    border-bottom: 1px solid lightgray;
+}
+.footer p:last-of-type{
+    text-align: center;
+    padding: 1rem 0 2rem !important;
+}

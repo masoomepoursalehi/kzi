@@ -1,0 +1,59 @@
+.login form label{
+    width: 100%;
+    font-weight: bold;
+    padding: .5rem 0!important;
+}
+.login{
+  min-height: 100vh;
+  background-color: #6dd4fa09;
+}
+.login form input{
+  width: 100%;
+  border: none;
+  outline: none;
+  border: 1px solid #c6ccdc;
+  border-radius: 5rem;
+  padding: .5rem !important;
+}
+.login form input:focus{
+  border: 1px solid #EA1B25;
+}
+.login .container{
+  max-width: 100%;
+}
+.login form{
+  padding:0rem 5rem!important;
+  margin: 3rem auto !important;
+  text-align: left;
+}
+.registerForm{
+  border-left: 1px solid lightgray;
+}
+.login form p:first-child{
+  font-size: 2.5rem;
+  border-bottom: 1px solid #c6ccdc;
+  padding-bottom: 1rem !important;
+}
+.login form p:nth-child(2){
+  padding: 2rem 0 !important;
+}
+.login form button{
+  margin: 2rem 0!important;
+  width: 6rem;
+  padding:.8rem 1rem!important;
+  border: none;
+  border-radius: 5rem;
+  font-weight: bold;
+}
+.login form button:hover{
+  background-color: #EA1B25;
+  color: white;
+}
+@media only screen and (max-width: 768px) {
+  .login form{
+    margin:3rem 0rem 1rem!important;
+  }
+  .registerForm{
+    border-left:none;
+  }
+}

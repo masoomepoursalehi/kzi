@@ -1,0 +1,66 @@
+.profileHolder .container{
+    max-width: 100%;
+}
+.profileHolder{
+    min-height: 87vh;
+    padding: 8rem 8rem 0!important;
+    display: flex;
+    justify-content: center;
+    background-color: #6dd4fa09;
+}
+.profileHolder .userDetails{
+    border: 1px solid #c6ccdc;
+    border-radius: .2rem;
+}
+.profileHolder .userDetails p span{
+    display: block;
+    font-weight: bold;
+    padding-left: .2rem !important;
+    color: black;
+}
+.profileHolder .userDetails p{
+    border-bottom: 1px solid #c6ccdc8a;
+    padding: .5rem !important;
+    color: #757575;
+}
+.profileHolder .userDetails .col-sm-6:last-child{
+    border-left: 1px solid #c6ccdc8a;
+}
+.profileHolder .userDetails p:last-child{
+    border-bottom:none !important;
+}
+.profileHolder .profileImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profileHolder .profileImg img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+}
+@media only screen and (max-width:992px) {
+    .profileHolder{
+        width: 100%;
+        padding:8rem 2rem 0!important;
+    }
+    .profileHolder .userDetails{
+        margin-bottom: 2rem !important;
+    }
+}
+@media only screen and (max-width:768px) {
+    .profileHolder .profileImg{
+        margin-bottom: 1rem !important;
+    }
+    .profileHolder{
+        padding-top: 2rem!important;
+    }
+}
+@media only screen and (max-width:576px) {
+    .profileHolder .userDetails .col-sm-6:last-child{
+        border-left: none;
+    }
+    .profileHolder .userDetails .col-sm-6:first-child{
+        border-bottom: 1px solid #c6ccdc8a;
+    }
+}

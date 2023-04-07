@@ -1,0 +1,87 @@
+.checkout .container{
+    max-width: 100%;
+}
+.checkout{
+    padding: 4rem 5rem !important;
+    min-height: 100vh;
+    background-color: #6dd4fa09;
+}
+.checkout .container h1{
+    text-align: center;
+}
+.checkout .detailsOfShop{
+    background-color:rgb(247, 240, 240);
+    padding: 1rem 2rem !important;
+    width: 60%;
+    margin: 2rem auto !important;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+.checkout .detailsOfShop .hd1{
+    font-size: 1.5rem;
+    padding:.5rem 0 .5rem 0 !important;
+}
+.checkout .detailsOfShop div{
+    display: flex;
+    justify-content: space-between;
+}
+.checkout .detailsOfShop .headerOfTb p,
+.checkout .detailsOfShop .Tprice{
+    font-weight: bold;
+}
+.checkout .detailsOfShop .headerOfTb,
+.checkout .detailsOfShop .bodyOfTb{
+    padding: .8rem 2rem !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+}
+.checkout .detailsOfShop .footerOfTb{
+    padding: .8rem 2rem !important;
+}
+@media only screen and (max-width: 992px) {
+    .checkout .detailsOfShop{
+        width: 95%;
+    }
+
+}
+
+.checkout .btnHolder button{
+    margin: 1rem 0!important;
+    width: 6rem;
+    padding:.8rem 1rem!important;
+    border: none;
+    border-radius: 5rem;
+    font-weight: bold;
+    background-color: #cbcfd3;
+}
+.checkout .btnHolder button:hover{
+    background-color: #EA1B25;
+    color: white;
+}
+.checkout .shoppingShow{
+    margin: 7rem auto 0!important;
+    background-color: #EA1B25;
+    color: white;
+    padding: 5rem 0rem !important;
+    font-size: 2rem;
+    border-radius: .2rem;
+    text-align: center;
+    width: 60%;
+}
+
+@media only screen and (max-width: 992px) {
+    .checkout .shoppingShow{
+        width: 100%;
+    }
+
+}
+.checkout .redDiv{
+    height: .1rem;
+    background-color: #EA1B25;
+    width: 7rem;
+}
+.checkout .redDiv2{
+    height: .1rem;
+    background-color: #EA1B25;
+    width: 9rem;
+}

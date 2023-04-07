@@ -1,0 +1,77 @@
+/*======================
+    LOADING ERROR
+=======================*/
+.oneOrder .spinnerLoding,
+.oneOrder .badgeError{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.oneOrder .badgeError .badge{
+    padding: 1rem !important;
+    font-size: 1rem;
+}
+/*======================
+    PRODUCTS
+=======================*/
+.oneOrder{
+    padding: 2rem 5rem !important;
+    min-height: 100vh;
+    background-color: #6dd4fa09;
+}
+.oneOrder .container{
+    max-width: 100%;
+}
+.oneOrder h1{
+    text-align: center;
+}
+.oneOrder .productsHolder{
+    border: 1px solid #c6ccdc;
+    border-radius: .5rem;
+    margin-top: 3rem !important;
+    padding: 0 2rem !important;
+    width: 50%;
+}
+.oneOrder .colOfProducts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.oneOrder .productsHolder .shippingInformation{
+    padding:1rem 2rem !important;
+    border-bottom: 1px solid #c6ccdc8a;
+}
+.oneOrder .productsHolder .shippingInformation p span{
+    font-weight: bold;
+}
+.oneOrder .productsHolder .productsInformation{
+    border-bottom: 1px solid #c6ccdc8a;
+    padding:1rem 2rem !important;
+}
+.oneOrder .productsHolder .productsInformation p:first-child{
+    font-size: 1.2rem;
+}
+.oneOrder .productsHolder .productsInformation .col:first-child{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+}
+.oneOrder .productsHolder .productsInformation p span{
+    font-weight: bold;
+}
+.oneOrder img{
+    width: 5rem;
+    height: 5rem;
+}
+@media only screen and (max-width: 1200px) {
+    .oneOrder .productsHolder{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .oneOrder .productsHolder{
+        width: 100%;
+    }
+}
